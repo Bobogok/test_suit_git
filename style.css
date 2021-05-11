@@ -1,12 +1,45 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Itim', cursive;
 }
+
 
 header > h1 {
   color: #742c2c;
   text-align: center;
   font-size: 55px;
-  font-family: 'Itim', cursive;
+
   padding: 10px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 800px;
+  position: relative;
+}
+
+
+.block > p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.block > textarea {
+  resize: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.block > button {
+  position: absolute;
+  left: 57%;
+  top: 65%;
+  width: 100px;
+  height: 50px;
+  margin-top: 30px;
 }
